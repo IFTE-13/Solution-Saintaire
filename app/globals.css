@@ -17,3 +17,14 @@ body {
     --radius: 0.5rem;
   }
 }
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
