@@ -14,7 +14,7 @@ export const Navigation = () => {
         <nav className="container mx-auto">
           <div className="flex items-center justify-between">
             <Link href={"/"} className='flex flex-row items-center gap-x-2'>
-              <Image src={Logo} alt="Logo" height={40} width={40} className='cursor-pointer'/>
+              <Image src={Logo} alt="Logo" height={60} width={60} className='cursor-pointer'/>
               <span className='text-xl font-semibold tracking-tight'>Solution Saintaire</span>
             </Link>
             <button 
