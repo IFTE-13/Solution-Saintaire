@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import HeroImage from "../../assets/hero.png";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 
@@ -70,7 +69,6 @@ export function Card() {
             <div className="flex justify-between items-center mt-10">
               <CardItem
                 translateZ={20}
-                as={Link}
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
                 Book now →
